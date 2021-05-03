@@ -61,7 +61,7 @@ echo
 ## Solved issues
 
 ## obstacle 1: GAMENAME
-git commit -m "cleanup"
+git commit -m "git push --delete origin tagname"
 
 ############
 # Step: 05 #
