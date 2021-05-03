@@ -55,14 +55,13 @@ echo
 #############################
 ## follow up simple commit ##
 #############################
-## Rename 1_GAME_CHEATSHEET_JAVA.md to 1_GAME_DEV_CHEATSHEET_JAVA.md
 ## Create file.ext
 ## Update file.ext
 ## Delete file.ext
 ## Solved issues
-## Default: Commit skipped|forgotten
 
-git commit -m "init react-maturity"
+## obstacle 1: GAMENAME
+git commit -m "cleanup"
 
 ############
 # Step: 05 #
@@ -82,7 +81,8 @@ git remote -v
 # Change your remote's URL from SSH to HTTPS with the git remote set-url command.
 echo
 echo [ Done ]  Updating remote URL.
-git remote set-url origin https://github.com/sakib-rahman-bangladesh/react-maturiy
+git remote set-url origin https://github.com/sakib-rahman-bangladesh/react2d-games
+
 ############
 # Step: 07 #
 ############
@@ -101,4 +101,4 @@ echo
 echo 08. Pushing local codebase to remote repo...Repo-to-repo collaboration: git push
 echo
 git push origin master
-git push --all -f https://github.com/sakib-rahman-bangladesh/react-maturiy
+git push --all -f https://github.com/sakib-rahman-bangladesh/react2d-games
